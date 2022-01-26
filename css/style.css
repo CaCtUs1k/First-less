@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Miratrix-Normal";
+    src: url(../Miratrix-Normal.otf) format("truetype");
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Miratrix-Normal" ;
+    letter-spacing: 3px;
+}
+body {background: linear-gradient(#323232, #272727)
+}
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#272727,#353535);
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+h1 {
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.header p {
+    margin-top: 60px;
+}
+.headline {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.wait {
+    text-align: right;
+
+}
+.environment {
+    display: flex;
+    justify-content: space-around;
+}
+.biography {
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding: 1px;
+    width: 500px;
+    background: linear-gradient(#272727,#353535)
+}
+ul {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style: none;
+    letter-spacing: 2px;
+}
+ li { 
+     margin-bottom: 30px;
+}
+.photo {
+    width: 500px;
+    height: 300px;
+    background-image: url(../png/depositphotos_7264018-stock-photo-programmer.jpg);
+    border-radius: 30px;
+}
+.photo  img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+.photo img:hover {
+    opacity: 0;
+    background: linear-gradient(#272727,#353535)
+}
+
+/* SOCIAL*/ 
+.find {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.social {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.social ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.social img {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.social img:hover, .social img:active {
+    transform: scale(1.3);
+}
+
+
